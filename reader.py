@@ -1,7 +1,6 @@
 import pyttsx3
 import PyPDF2
 import sys
-import yaml
 
 speaker = pyttsx3.init()
 rate = speaker.setProperty('rate', 165)
