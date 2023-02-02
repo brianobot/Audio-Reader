@@ -45,7 +45,7 @@ class Reader:
                     self.speaker.runAndWait()
                 except KeyboardInterrupt:
                     self.speaker.say("Ending Reader")
-                    self.skeaper.runAndWait()
+                    self.speaker.runAndWait()
                     sys.exit()    
         else:
             with open(self.file, encoding="utf-8") as data:
@@ -55,7 +55,7 @@ class Reader:
                         self.speaker.runAndWait()
                     except KeyboardInterrupt:
                         self.speaker.say("Ending Reader")
-                        self.skeaper.runAndWait()
+                        self.speaker.runAndWait()
                         sys.exit()    
 
         # Stop the speaker when reading is completed
